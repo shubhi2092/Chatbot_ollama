@@ -1,0 +1,13 @@
+prefix=D:/Open AI Chatbot/venv/Library
+exec_prefix=D:/Open AI Chatbot/venv/Library
+libdir=D:/Open AI Chatbot/venv/Library/lib
+sharedlibdir=D:/Open AI Chatbot/venv/Library/lib
+includedir=D:/Open AI Chatbot/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
